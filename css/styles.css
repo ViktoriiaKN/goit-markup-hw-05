@@ -382,7 +382,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-fill: var(--white-color);
+fill: var(--icon-color);
 }
 
 .icon-team:hover,
@@ -391,10 +391,7 @@ fill: var(--white-color);
   fill: var(--white-color);
 }
 
-.icon-team:hover .team-icon-li
- {
-  fill: var(--white-color);
-}
+
 
 .icon-team:focus .team-icon-li {
   fill: var(--white-color);
@@ -407,9 +404,7 @@ border-radius: 0px 0px 4px 4px;
 
 }
 
-.team-icon-li {
-fill: var(--icon-color);
-}
+
 
 .team-igor::after {
   background-image: url(../images/Sociallinks.svg);
@@ -490,6 +485,7 @@ border-radius: 4px;
 }
 
 .clients-icon-li {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--icon-color);
 }
 
